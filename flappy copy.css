@@ -1,0 +1,25 @@
+#bird {  width: 100px; height: 100px; animation-name: bird; animation-iteration-count: 1; animation-duration: 20s }
+@keyframes bird {
+0% {margin-left: 10%; margin-top: 50%}
+5% {margin-left: 15%; margin-top: 52%}
+10% {margin-left: 20%; margin-top: 51%}
+15% {margin-left: 25%; margin-top: 45%}
+20% {margin-left: 30%; margin-top: 52%}
+25% {margin-left: 35%; margin-top: 50%}
+30% {margin-left: 40%; margin-top: 45%}
+35% {margin-left: 45%; margin-top: 43%}
+40% {margin-left: 50%; margin-top: 42%}
+45% {margin-left: 55%; margin-top: 48%}
+50% {margin-left: 60%; margin-top: 46%}
+55% {margin-left: 65%; margin-top: 45%}
+60% {margin-left: 70%; margin-top: 47%}
+65% {margin-left: 75%; margin-top: 50%}
+70% {margin-left: 80%; margin-top: 53%}
+75% {margin-left: 85%; margin-top: 52%}
+80% {margin-left: 90%; margin-top: 52%}
+85% {margin-left: 95%; margin-top: 52%}
+100% { display: none; }
+}
+body {
+	background-size: 1000px;
+}

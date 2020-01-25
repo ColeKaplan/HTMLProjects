@@ -1,0 +1,27 @@
+body {
+	background-color: rgb( 70, 120, 100);
+}
+.button {
+	float: right;
+}
+ .button:hover{
+ 	color: red;
+ 	background-color: blue;
+ }
+ #cursive {
+ 	font-family: cursive;
+ 	font-size: 20px;
+ }
+ #gif {
+margin-left: 50%;
+animation-name: grow;
+animation-iteration-count: infinite;
+animation-duration: 2s;
+ }
+ @keyframes grow {
+ 0%{ transform: rotate(0deg); }
+ 25%{ transform: rotate(90deg); }
+ 50%{ transform: rotate(180deg); }
+ 75%{ transform: rotate(270deg); }
+ 100%{ transform: rotate(360deg); }
+ }

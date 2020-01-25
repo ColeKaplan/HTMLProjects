@@ -1,0 +1,30 @@
+body {
+  background-color: rgb( 70, 120, 100);
+}
+.crazy {
+	text-transform: cursive;
+	text-align: center;
+	font-size: 50px;
+	animation-name: square;
+	animation-iteration-count: infinite;
+	animation-duration: 2s;
+}
+.center {    position: absolute;
+    margin: auto;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.button {
+	float: right;
+}
+ .button:hover{
+ 	color: red;
+ 	background-color: blue;
+ }
+ @keyframes square {
+  0%   {background-color:red; color: blue;}
+  25%  {background-color:yellow; color: magenta;}
+  50%  {background-color:blue; color: red;}
+  75%  {background-color:magenta; color: yellow;}
+  100% {background-color:red; color: blue;}

@@ -1,0 +1,92 @@
+body {
+	animation-name: stroke1;
+	animation-iteration-count: infinite;
+	animation-duration: 3s;
+}
+#dot1 { animation-name: change1; animation-iteration-count: infinite; animation-duration: 3s}
+#dot2 { animation-name: change2; animation-iteration-count: infinite; animation-duration: 3s }
+#dot3 { animation-name: change3; animation-iteration-count: infinite; animation-duration: 3s }
+#dot4 { animation-name: change4; animation-iteration-count: infinite; animation-duration: 3s }
+#dot5 { animation-name: change5; animation-iteration-count: infinite; animation-duration: 3s }
+#dot6 { animation-name: change6; animation-iteration-count: infinite; animation-duration: 3s }
+#dot7 { animation-name: change7; animation-iteration-count: infinite; animation-duration: 3s }
+#dot8 { animation-name: change8; animation-iteration-count: infinite; animation-duration: 3s }
+
+@keyframes stroke1 {
+0% {background-color: black;}
+50% {background-color: white;}
+100% {background-color: black;}
+}
+
+@keyframes change1 { 
+14.3% { background-color: red; color: red;}
+28.6% { background-color: orange; color: orange;}
+42.9% { background-color: yellow; color: yellow;}
+57.2% { background-color: green; color: green;}
+71.5% { background-color: blue; color: blue;}
+85.8% { background-color: indigo; color: indigo;}
+100% { background-color: violet; color: violet;}
+}
+@keyframes change2 { 
+14.3% { background-color: violet; color: violet; }
+28.6% { background-color: red; color: red;}
+42.9% { background-color: orange; color: orange;}
+57.2% { background-color: yellow; color: yellow;}
+71.5% { background-color: green; color: green;}
+85.8% { background-color: blue; color: blue;}
+100% { background-color: indigo; color: indigo;}
+}
+@keyframes change3 { 
+14.3% { background-color: indigo; color: indigo;}
+28.6% { background-color: violet; color: violet; }
+42.9% { background-color: red; color: red;}
+57.2% { background-color: orange; color: orange;}
+71.5% { background-color: yellow; color: yellow;}
+85.8% { background-color: green; color: green;}
+100% { background-color: blue; color: blue;}
+}
+@keyframes change4 { 
+14.3% { background-color: blue; color: blue; }
+28.6% { background-color: indigo; color: indigo;}
+42.9% { background-color: violet; color: violet;}
+57.2% { background-color: red; color: red;}
+71.5% { background-color: orange; color: orange;}
+85.8% { background-color: yellow; color: yellow;}
+100% { background-color: green; color: green;}
+}
+@keyframes change5 { 
+14.3% { background-color: green; color: green; }
+28.6% { background-color: blue; color: blue;}
+42.9% { background-color: indigo; color: indigo;}
+57.2% { background-color: violet; color: violet;}
+71.5% { background-color: red; color: red;}
+85.8% { background-color: orange; color: orange;}
+100% { background-color: yellow; color: yellow;}
+}
+@keyframes change6 { 
+14.3% { background-color: yellow; color: yellow; }
+28.6% { background-color: green; color: green;}
+42.9% { background-color: blue; color: blue;}
+57.2% { background-color: indigo; color: indigo;}
+71.5% { background-color: violet; color: violet;}
+85.8% { background-color: red; color: red;}
+100% { background-color: orange; color: orange;}
+}
+@keyframes change7 { 
+14.3% { background-color: orange; color: orange; }
+28.6% { background-color: yellow; color: yellow;}
+42.9%{ background-color: green; color: green;}
+57.2% { background-color: blue; color: blue;}
+71.5% { background-color: indigo; color: indigo;}
+85.8% { background-color: violet; color: violet;}
+100% { background-color: red; color: red;}
+}
+@keyframes change8 { 
+14.3% { background-color: red; color: red;}
+28.6% { background-color: orange; color: orange;}
+42.9% { background-color: yellow; color: yellow;}
+57.2% { background-color: green; color: green;}
+71.5% { background-color: blue; color: blue;}
+85.8% { background-color: indigo; color: indigo;}
+100% { background-color: violet; color: violet;}
+}

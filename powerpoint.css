@@ -1,0 +1,48 @@
+#first { animation-name: firstone;
+	animation-iteration-count: 1;
+	animation-duration: 400s;
+}
+@keyframes firstone {
+	0% { opacity: 1; }
+	1% { opacity: 0; }
+	100% { opacity: 0; }
+}
+#second { animation-name: second1;
+	animation-iteration-count: 1;
+	animation-duration: 400s;
+}
+@keyframes second1 {
+	0% { opacity: 0; }
+	1% { opacity: 1; }
+	2% { opacity: 0; }
+	100% { opacity: 0; }
+}
+#third { animation-name: third1;
+	animation-iteration-count: 1;
+	animation-duration: 400s;
+	
+}
+@keyframes third1 {
+	0% { opacity: 0; }
+	1% { opacity: 0; }
+	2% { opacity: 1; }
+	3% { opacity: 0; }
+	100% { opacity: 0; }
+}
+
+#fourth { animation-name: fourth1;
+	animation-iteration-count: 1;
+	animation-duration: 400s;
+	width: 900px;
+	height: 900px;
+	
+}
+
+@keyframes fourth1 {
+	0% { opacity: 0; }
+	1% { opacity: 0; }
+	2% { opacity: 0; }
+	3% { opacity: 1; }
+	4% { opacity: 1; }
+	100% { opacity: 1; }
+}

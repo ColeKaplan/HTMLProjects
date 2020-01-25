@@ -1,0 +1,59 @@
+body { background-color: rgb( 70, 120, 100);
+	}
+.white { color: white; }
+.red { color: red; float: left; } 
+.orange { color: orange; float: left;}
+.yellow { color: gold; float: left;}
+.green { color: green; float: left;}
+.blue { color: blue; float: left;}
+.indigo { color: indigo; float: left;}
+.violet { color: violet; float: left;}
+.firstword { float: left;/* width: 4%; */}
+.secondword { float: left;/* width: 12%;*/ }
+.thirdword { float: left; /*width: 4%;*/ }
+.fourthword { float: left; /*width: 4%;*/ }
+.fifthword { float: left;/* width: 10%; */}
+.rotateright {     transform: rotate(90deg); }
+.cool { 
+	color: purple;
+	font-family: cursive;
+	text-align: center;
+	font-weight: 9999999;
+	 background-color: green;
+	 outline-color: red;
+ }
+ .css {
+ 	font-family: cursive;
+
+
+ }
+ .button{
+ 	float: right;
+ }
+ .button:hover{
+ 	color: red;
+ 	background-color: blue;
+ }}
+#move {
+	animation-name: move;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
+}
+@keyframes move {
+0%{float: right; width: ; top: 20px;}
+16%{left: 55px; top: 20px;}
+32%{left: 15px; top: 45px;}
+48%{left: 27.5px; top: 10px;}
+64%{left: 55px; top: 45px;}
+80%{left: 5px; top: 20px;}
+100%{left: 5px; top: 20px;}
+}
+.catch {
+	animation-name: catch;
+	animation-iteration-count: infinite;
+	animation-duration: 3s;
+}
+@keyframes catch {
+  0%   {margin-left: 10%; margin-top: 10%;}
+  50%  {margin-left: 50%; margin-top: 10%;}
+  100% {margin-left: 10%; margin-top: 10%;}
